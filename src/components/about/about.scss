@@ -1,0 +1,16 @@
+@import '../../style/App.scss';
+
+#about {
+  padding: 20px 0;
+  .horizontalLine {
+    width: 65%;
+    text-align: left;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #about {
+    text-align: center;
+  }
+}
